@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Resume (C.V)</title>
+        <meta charset="utf-8" name = "viewport" content="width = device-width, initial-scale=1.0">
+        <link href="elishaEkanem.css" type="text/css" rel="stylesheet">
+        
+   </head>
+    </head>
+    <body>
+         <table>
+                    <tr>
+                        <th><h1><b>ELISHA EKANEM</b></h1> </th>
+                        <th id="adress"132 Old Itu Road Ikot Ekpene,<br> Akwa Ibom State, Nigeria.<br>
+                              <a href="elishaekanem@yahoo.com">elishaekanem@yahoo.com</a><br>
+                              <a href="ekanemelisha@gmail.com">ekanemelisha@gmail.com</a> <br>
+                              <a href="#conform"><button class="button"  >CONTACT ME</button></a>
+                                </th>
+            <th><img src="https://res.cloudinary.com/easye/image/upload/c_scale,w_208/v1566615760/EasyE_zhwi1l.jpg"></th>
+           
+                    </tr>
+                    <tr>
+                        <td>
+                               <H2><b>EXPERIENCE</b></H2> <br>
+                               <h3><b> Advanced Space Technology Application Laboratory(ASTAL) </b><br>Uyo, Akwa Ibom State<br> — <i>Internship</i></h3><br>
+                              <p> <i>JUNE 2019- PRESENT</i> </p>
+                                
+                        </td>
+                        <td>
+                              <h2><b>  SKILLS</b></h2><br>
+                              <ul>
+                                  <li>GIS (Geographical Information System) and Remote Sensing Analyst.</li>
+                                  <li>	Web Developer.</li>
+                                  <li>Entertainment Journalism.</li>
+                
+                              </ul>
+                
+                                    
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                                <h2><b>EDUCATION</b></h2><br>
+                                <h3><B>MONIKA kIDERGARTEN AND ELEMENTARY SCHOOL,</B><br>20 Imek Road Ikot Ekpene Akwa Ibom State. <br> — <i>FSLC(First School leaving Certificate)</i></h3><br>
+                                <p><i>September 1999 - July 2005</i></p>
+                                
+                
+                        </td>
+                        <td>
+                              <h2><b>  AWARDS</b></h2><br>
+                                <p>2017 Scholarship Award Winner of <br>Nto Annang Foundation<br> Baltimore Washington D.C USA</p>
+                                
+                
+                        </td>
+                    </tr>
+                    <tr>
+                <td>
+                      <h3> <b> FEDERAL GOVERNMENT COLLEGE ,</b><br> Ikot Ekpene Akwa Ibom State <br>—<i> WASSE(West African Senior Schools Certificate Examination)</i></h3>
+                       <p><i> September 2005 - July 2011</i></p>
+                        
+                </td>
+                <td>
+                     <h2><b>   LANGUAGES</b></h2><br>
+                       <p> English, Efik.</p>
+                        
+                </td>
+                    </tr>
+                    <tr>
+                        <td>
+                               <h3><b> UNIVERSITY OF UYO, Uyo,</b> Akwa Ibom State — <i>B.sc(Bachelor of Science )</i></h3><br>
+                               <p> November 2014 - Till Date</p>
+                                
+                
+                        </td>
+                        <td>
+                
+                        </td>
+                
+                    </tr>
+                    <tr>
+                        <td>
+                               <h2><b> PROJECTS</b></h2><br>
+                                
+                                <p><b>GIS Analysis of The 2019 Nigeria Decide Presidential Election.</b><br>
+                                        Location were used to view  the outcome of the election using computerised software.</p>
+                
+                        </td>
+                        <td>
+                
+                        </td>
+                    </tr>
+                    
+                
+                </table>
+        
+                <script>
+                    function confirm(){
+                        var x; var y; var ml; var ms;
+                        x = document.getElementById("name").value;
+                        y = document.getElementById("gender").value;
+                                alert(y + " " +" "+ x +" "+"thank you for messaging i will reply back soon.");
+                        }
+                </script>
+                <div class="form" onload='document.form1.text1.focus()'>
+                    <h3 id="conform">CONTACT ME</h3>
+                    <form  onsubmit ="confirm()" name = "form1" action="#";>
+                        <input type="text" minlength="4" name="name" id="name" placeholder="name" required><br><br>
+                        <select id="gender">
+                            <option value="MR">MR</option>
+                            <option value="MRS">MRS</option>
+                            <option value="MISS">MISS</ption>
+                            
+                        </select><br><br>
+                        <input type="email" name="email" id="mail" placeholder="name@gmail.com" required><br><br>
+                        <textarea id = "message" minlength="20" type="message" name="message" placeholder="message" required ></textarea><br>
+                        <input type="submit" class="button">
+                    </form>
+                    
+                </div>
+    </body>
+</html>

@@ -1,0 +1,140 @@
+*{
+    margin: auto;
+    width: auto;
+    background-color: azure;
+    
+}
+h1{
+    font: outline;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(18, 18, 19);
+    font-weight: bolder
+    text-align: left;
+    text-shadow:  2px 1px brown;
+ }
+
+h2{
+    color: rgb(22, 56, 207);
+    font-weight: bold;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 1.6em;
+    font-size: 30px;
+
+}
+h3{
+    color: black;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 1.6em;
+    font-size: 20px;
+}
+img{
+    border-radius: 50%;
+    border-color: rgb(92, 22, 22);
+    border: 8px solid rgb(34, 25, 25);
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.8;
+
+}
+a:hover{
+    color:purple;
+}
+#address{
+    color: red;
+    -ms-text-kashida-space: 100px
+}
+
+.form{
+    width: 50%;
+    align-self: center;
+    background-color: blueviolet;
+    border: 10px saddlebrown;
+}
+.form textarea[type="message"]{
+    border: 2px solid grey;
+    background: transparent;
+    border-left: 4px solid  rgba(41, 41, 177, 0.521) ;
+    color: black;
+    height: 150px;
+    width: 80%;
+    font-size: 20px;
+    font-family: Raleway;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.form input[type="email"]{
+    border: 2px solid grey;
+	border-left: 4px solid  rgba(41, 41, 177, 0.521) ;
+	background: transparent;
+	outline: none;
+    height: 50px;
+    width: 80%;
+	color: black;
+    font-size: 20px;
+    font-family: Raleway;
+    padding-left: 5px;
+}
+
+.form input[type="text"]{
+    border: 2px solid grey;
+	border-left: 4px solid  rgba(41, 41, 177, 0.521) ;
+	background: transparent;
+	outline: none;
+    height: 50px;
+    width: 80%;
+	color: black;
+    font-size: 20px;
+    font-family: Raleway;
+    padding-left: 5px;
+    box-align: center;
+}
+ .form select{
+    border: 2px solid grey;
+	border-left: 4px solid  rgba(41, 41, 177, 0.521) ;
+	background: transparent;
+	outline: none;
+    height: 50px;
+    width: 81.5%;
+	color: black;
+    font-size: 20px;
+    font-family: Raleway;
+    padding-left: 5px;
+}
+
+.button {
+    background-color:  rgba(41, 41, 177, 0.521);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.form{
+    margin: 5%;
+    padding: 3%;
+    width: 60%;
+    height: 20%;
+    background-color:rgb(173, 217, 223);
+    background-size: cover;
+    border-radius: 50px;
+    float:center;
+}
+#conform{
+    align-content: center;
+    padding: 1%;
+}
